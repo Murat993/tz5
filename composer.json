@@ -1,0 +1,21 @@
+{
+    "name": "murat/php2",
+    "description": "phplessons",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Murat M",
+            "email": "muratnysambaev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Base\\": "base/"
+        }
+    }
+}
